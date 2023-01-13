@@ -1,0 +1,23 @@
+p,
+label {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input {
+    margin: 0.4rem;
+}
+
+button {
+    margin: 0.4rem;
+}
+
+ body{
+    color: rgb(230 10 30);
+    background-color: white;
+}
+
+img {
+    width: 48px;
+    height: 45px;
+    padding: 0 0 0 2px;
+}

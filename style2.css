@@ -1,0 +1,15 @@
+body {
+    margin: 10px 20px 0 10px;
+    color: rgb(230 10 30);
+    background-color: white;
+ }
+  
+img {
+    width: 300px;
+    height: 210px;
+ }
+
+button {
+    margin: 0 0 0 40px;
+}
+
