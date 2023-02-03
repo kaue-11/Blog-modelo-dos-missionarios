@@ -1,30 +1,111 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family= Playfair + Display:ital,wght@1,400;1,500 & display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 
 body{
     width: 100%;
-    height: 180vh;
+    height: 100vh;
     background-image: url(https://st4.depositphotos.com/20524830/26242/i/600/depositphotos_262422558-stock-photo-internal-painting-of-the-church.jpg);
-    background-position: center;
+    background-position: center 93px;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 130%;
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow-y: scroll;
+    background-color: #705714;
+    scroll-behavior: smooth;
+}
+
+
+.container-auto{
+    max-width: 1080px;
+    margin: 2px 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    background-color: #705714 ;
+    width: 83%;
+    padding: 6px;
+    position: fixed;
+    margin-top: -562px;
+    margin-left: 20px;
+}
+
+.logo,.sociais{
+    width: 25%;
+}
+
+
+
+.menu{
+    width: 50%;
+}
+
+.menu nav a{
+    color: azure;
+    padding-right: 45px;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    margin-right: 50px;
+    margin-left: 10px;
+}
+
+.menu nav a::after{
+    content: " ";
+    width: 0px;
+    height: 4px;
+    background-image: linear-gradient(45deg, rgb(194, 151, 9), rgb(139, 139, 55));
+    position: absolute;
+    top: 20px;
+    left: 0;
+    transition: width 0.5s;
+}
+
+.menu nav a:hover::after{
+    width: 60px;
+}
+
+.icon{
+    width: 90px;
+    height: 70px;
+    cursor: pointer;
+}
+
+.sociais button{
+    width: 40px;
+    height: 40px;
+    background-image: linear-gradient(45deg, rgb(194, 151, 9), rgb(139, 139, 55));
+    border: none;
+    margin-right: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+.sociais button i{
+    font-size: 20px;
+    color: azure;
+    margin: 2px;
+}
+
+section{
+    margin-top: auto;
 }
 
 .container{
-    max-width: 1280px;
+    max-width: 1080px;
     margin: 0 auto;
-    padding: 6%;
-    
+    padding: 6%;  
+    top: -10px;
 }
 
 form{
